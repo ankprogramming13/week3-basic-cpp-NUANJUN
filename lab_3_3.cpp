@@ -3,6 +3,11 @@
 using namespace std;
 
 int main() {
-  
-  return 0;
+
+const float pi = 3.14315926536;
+float r;
+cin >> r;
+cout << "Area : " << pi * r * r;
+
+return 0;
 }
